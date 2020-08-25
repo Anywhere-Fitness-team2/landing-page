@@ -1,0 +1,365 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey; */
+  }
+
+ html {
+     font-size: 62.5%;
+ }
+
+ /* Consistent header styles */
+ header{
+    
+    background-color: black;
+    border-bottom-color: white; /* want to change to white - styles for header bottom border*/
+    border-bottom-style: solid;
+    border-bottom-width: 6px;   
+}
+
+.logo{
+    width: 20%;
+    padding:1.3%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo img { /* header log top left */
+    max-width: 100%;
+    height: 115px;
+    margin: 0 auto;
+    width: 55%;
+}
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{ /* Navigation box */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+a:hover {
+    color:orange;
+}
+
+h1 {
+    color:white;
+    font-size: 5.5rem;
+    text-align: center;
+    padding:1%;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+/* end header styles */
+
+/* Content */ 
+.firstheading { /*About Anywhere Fitness box */
+    margin-top: 2%;
+}
+h2{ /*About Anywhere Fitness text styles */
+    display: flex;
+    justify-content: center;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 8rem;
+    padding-top: 1%;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 50%;
+} 
+.flex-container {
+    display: flex;
+}
+
+.text-container{
+    width: 50%;
+}
+img {
+    width: 50%;
+    padding: 7%;
+    margin-left: 40%;
+    border-radius: 150px;
+}
+
+
+.information { /*paragraph box */
+    margin-top: 3%;
+}
+.information p { /*paragraph styles */
+    font-size: 2.5rem;
+    font-family: 'Do Hyeon', sans-serif;
+    padding:0 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team { /*Meet The Team box */
+    margin-top: 3%;
+}
+
+.team h4 { /*Meet The Team text */
+    font-size: 7rem;
+    font-family: 'Do Hyeon', sans-serif;
+    padding:0 10%;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Name { /*Team Member Names */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 6rem;
+    margin-top: 20%;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.Role { /* Role box/styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.github { /* Github link div */
+    margin-top: 0.5%;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.github-link { /* Github link styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.github-link:hover { /* Github link hover animation */
+    color: orange;
+}
+
+/* TJ Styles */
+
+.NameTJ { /*Team Member Names */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 6rem;
+    margin-top: 35%;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.RoleTJ { /* Role box/styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.githubTJ { /* Github link div */
+    margin-top: 0.5%;
+    text-align: center;
+    margin-right: 30%;
+}
+.github-linkTJ { /* Github link styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* Justin Styles */
+.NameJustin { /*Team Member Names */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 6rem;
+    margin-top: 35%;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.RoleJustin { /* Role box/styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.githubJustin { /* Github link div */
+    margin-top: 0.5%;
+    text-align: center;
+    margin-right: 30%;
+}
+.github-linkJustin { /* Github link styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* Richard Styles */
+
+.NameRich { /*Team Member Names */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 6rem;
+    margin-top: 38%;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.RoleRich { /* Role box/styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.githubRich { /* Github link div */
+    margin-top: 0.5%;
+    text-align: center;
+    margin-right: 30%;
+}
+.github-linkRich { /* Github link styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* EB Styles */
+
+.NameEB { /*Team Member Names */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 6rem;
+    margin-top: 40%;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.RoleEB { /* Role box/styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.githubEB { /* Github link div */
+    margin-top: 0.5%;
+    text-align: center;
+    margin-right: 30%;
+}
+.github-linkEB { /* Github link styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* Jorge Styles */
+.NameJorge { /*Team Member Names */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 6rem;
+    margin-top: 40%;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.RoleJorge { /* Role box/styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.githubJorge { /* Github link div */
+    margin-top: 0.5%;
+    text-align: center;
+    margin-right: 30%;
+}
+.github-linkJorge { /* Github link styles */
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+
+/* footer */
+
+.feet {
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+.feet p {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+/* media querys */
+
+@media (max-width:1000px) {
+    header {
+        width: 100%;
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
+    .logo{ /* doing away with logo container */
+        display:none;
+    }
+    .logo img { /* doing away with logo image itselft */
+        display:none;
+    }
+}
+
+
+/* Media Query 2 500px */
+
+@media (max-width:500px) {
+    header nav {
+        width: 100%;
+    }
+    .link {
+        display: flex;
+        flex-direction: column;
+    }
+    nav a {
+        font-size: 1.7rem;
+    }
+    .firstheading {
+        text-align: center;
+    }
+    .information p {
+        width: 100%;
+        font-size: 2rem;
+        padding-top: 2%;
+    }
+    .text-container{
+        margin-top: 11%;
+        
+    }
+    .NameEB, .NameTJ, .Name, .NameRich, .NameJustin, .NameJorge {
+        font-size: 3rem;
+    }
+    .RoleEB, .Role, .RoleTJ, .RoleRich, .RoleEB, .RoleJustin, .RoleJorge {
+        font-size: 2rem;
+    }
+    .github-linkEB, .github-linkJustin, .github-linkRich, .github-link, .github-linkTJ, .github-linkJorge{
+        font-size: 1.5rem;
+    }
+}

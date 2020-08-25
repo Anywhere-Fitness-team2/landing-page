@@ -11,16 +11,10 @@ html{
     font-size: 62.5%;
 }
 
-body{
-
-}
-
 header{
     
     background-color: black;
-    border-bottom-color: white; /* want to change to white - styles for header bottom border*/
-    border-bottom-style: solid;
-    border-bottom-width: 10px;
+   
     
 }
 
@@ -36,10 +30,7 @@ header{
     height: 115px;
     margin: 0 auto;
     width: 55%;
-    
-    
 }
-
 header nav {
     width: 100%;
     display: flex;
@@ -160,7 +151,7 @@ button:hover{
     font-size: 1.5rem;
     text-align:center;
 }
-/* Media Query 1 - 800px */
+/* Media Query 1 - 1000px */
 
 @media (max-width:1000px) {
     header nav {
