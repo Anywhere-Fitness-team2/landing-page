@@ -184,8 +184,17 @@ button:hover{
         padding-top: 2%;
     }
 }
+/* Media Query 2 - 800px */
+@media (max-width:800px){
+    
+}
 
-/*Media Query 2 - 500px*/
+
+
+
+
+
+/* Media Query 3 - 500px */
 @media (max-width:500px){
     header nav {
         width: 100%;

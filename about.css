@@ -93,7 +93,7 @@ h2{ /*About Anywhere Fitness text styles */
 .text-container{
     width: 50%;
 }
-img {
+.image-container img {
     width: 50%;
     padding: 7%;
     margin-left: 40%;
@@ -327,8 +327,16 @@ img {
     }
 }
 
+/* Media Query 2 800px */
+@media (max-width:800px){
+    h2 {
+        text-align: center;
+    }
+}
 
-/* Media Query 2 500px */
+
+
+/* Media Query 3 500px */
 
 @media (max-width:500px) {
     header nav {
